@@ -77,9 +77,9 @@ box-shadow: -1px 14px 14px 4px hsl(0, 100%, 98%);
     
 }
 
-/* .right-side .picture{
-    height: ;
-} */
+.hero-mobile{
+    display: none;
+}
 
 
 
@@ -109,6 +109,12 @@ box-shadow: -1px 14px 14px 4px hsl(0, 100%, 98%);
         display: none;
     }
 
+    .hero-text-mobile{
+        display: block;
+    }
+
+
+
     .hero-text-mobile input{
         color: hsl(0, 93%, 68%) ;
         border-radius: 50px;
@@ -119,6 +125,14 @@ box-shadow: -1px 14px 14px 4px hsl(0, 100%, 98%);
         margin: 5px 0;
         position: relative;
         left: 30px;
+    }
+
+    .picture{
+        display: none;
+    }
+
+    .hero-mobile{
+        display: block;
     }
 
     .hero-text-mobile button{
